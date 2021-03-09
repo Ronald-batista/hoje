@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: 'file'
-          path: '/home/runner/work/hoje/hoje'
+          path: '/home/runner/work/hoje/hoje/upd_relogio'
