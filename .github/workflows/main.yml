@@ -24,8 +24,8 @@ jobs:
       - uses: actions/checkout@v2
       
       # Talvez seja necessario instalar o g++ e/ou o build essentials
-      - name: Install g++ compiler and libraries
-        run: sudo apt install build-essential
+      #- name: Install g++ compiler and libraries
+      #  run: sudo apt install build-essential
       
       # Runs a single command using the runners shell
       - name: compile
